@@ -1,6 +1,6 @@
 ## Assignment 5_1 Summary
 
-Dataset
+#### Dataset
 This data comes to us from the UCI Machine Learning repository and was collected via a survey on 
 Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, 
 current time, weather, passenger, etc., and then ask the person whether he will accept the coupon 
@@ -8,6 +8,9 @@ if he is the driver. Answers that the user will drive there ‘right away’ or 
 expires’ are labeled as ‘Y = 1’ and answers ‘no, I do not want the coupon’ are labeled as ‘Y = 0’. 
 There are five different types of coupons -- less expensive restaurants (under $20), coffee houses, 
 carry out & take away, bar, and more expensive restaurants ($20 - $50). 
+
+#### Data
+The data directory contains dataset csv file from the UCI Machine Learning used for this study
 
 ## Summary of findings
 The study so far focused on two types of coupons
@@ -18,7 +21,7 @@ The study so far focused on two types of coupons
 ## Bar Coupon
 ### Hypothesize of drivers who accepted the bar coupons
 We have calculated the proportion of drivers that accepted coupons using frequency, age, passenger, occupation, marital status, going to cheap restaurants, and income.
-<br>
+<br><br>
 **The best criteria to determine bar coupon acceptance is bar frequency.  Drivers that go to bars 4 or more times per month accept the bar coupon at 76% of the times which is higher than any of the other evaluated combinations.**
 
 ## Restaurants $20 to $50 Coupon
@@ -33,5 +36,17 @@ The best criteria to determine Restaurant 20 to 50 coupon acceptance are
 
 **These characteristics almost double the base proportion of acceptance going from 44% to 80%**
 
+## Next steps
+There are still more characteristics to study and the impact it may have on the Bar and Restaurant $20 to $50 coupon.
+More time is needed for a deeper study.  In addition, there are still other coupons to study
+
+1. Restaurant(<20)
+2. Coffee House
+3. Carry out & Take away
+<br>
+Also, it would be of great value to develop a correlation matrix for each coupon type.  Some data transformations 
+are needed to calculate the matrix.
+
 ### Notebook URL
 https://github.com/aegonzalezp/Assignment_5_1/blob/main/5_1_AlvaroGonzalez.ipynb
+
